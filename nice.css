@@ -1,0 +1,474 @@
+* {
+    font-family: helvetica;
+    box-sizing: border-box;
+}
+.awal {
+    height: 180vh;
+    background: url(gmbr/bground.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+body {
+    background-size: 1382px 1382px;
+}
+.logo {
+    color: #fafafa;
+    font-size: 35px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-shadow: #ae5252;
+}
+span {
+    -webkit-text-fill-color: #52d6ff;
+    -webkit-text-stroke: 0.5px rgb(250, 232, 232);
+    border-radius: 40px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 2px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #52d6ff;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color:rgb(255, 253, 253);
+    transition: .2s;
+}
+.btn {
+    background: #52d6ff;
+    color: #070000;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 1px 15px;
+    border-radius: 30px;
+    transition: transform .4s;
+    font-size: 30px;
+}
+.btn:hover {
+    transform: scale(1.2);
+}
+.content {
+    position: absolute;
+    top: 100px;
+    left: 240px;
+}
+h1 {
+    color: #fafafa;
+    font-size: 64px;
+    position: absolute;
+    top: 100px;
+    text-shadow: 0 0 40px #52d6ff, 0 0 82px #52d6ff;
+}
+h4 {
+    color: #52d6ff;
+    font-size: 22px;
+    position: absolute;
+    top: 90px;
+}
+h3 {
+    color: #fafafa;
+    font-size: 12px;
+    position:relative;
+    top: 220px;
+}
+.a {
+    position: relative;
+    right: 150px;
+    top: 3px;
+}
+.kaki {
+    position: absolute;
+    top: 135%;
+    background: #101825;
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+}
+p {
+    color: #c5c5c5;
+    position: absolute;
+    top: 730px;
+    margin-left: 38.8%;
+    font-size: 13px;
+    width: 300px;
+    z-index: 3;
+}
+.flw p {
+    color: #c5c5c5;
+    position: absolute;
+    left: 1px;
+    top: 780px;
+    font-size: 13px;
+    width: 300px;
+    z-index: 3;
+}
+.next a {
+    color: #c5c5c5;
+    position: absolute;
+    top: 650px;
+    margin-left: -6.8%;
+    font-weight: bold;
+}
+.next a:hover {
+    color: #52d6ff;
+    transition: .2s;
+}
+.petik {
+    color: #c5c5c5;
+    position: absolute;
+    top: 700px;
+    margin-left: 48.5%;
+    font-size: 60px;
+    width: 300px;
+    z-index: 4;
+}
+.petit {
+    color: #c5c5c5;
+    position: absolute;
+    top: 740px;
+    margin-left: 48.5%;
+    font-size: 60px;
+    width: 300px;
+    z-index: 4;
+}
+.yt {
+    margin-top: -110px;
+    margin-left: 290px;
+    
+}
+.tt {
+    margin-top: -110px;
+    margin-left: 100px;
+}
+.aosmedyt {
+    position: absolute;
+    left: 50%;
+    top: 850px;
+    z-index: 2;
+}
+.aosmedtt {
+    position: absolute;
+    left: 46%;
+    top: 850px;
+    z-index: 2;
+}
+.me {
+    position: absolute;
+    left: 47%;
+    top: 830px;
+    color: #b1b1b1;
+    z-index: 2;
+}
+.met {
+    position: absolute;
+    left: 47%;
+    top: 870px;
+    color: #b1b1b1;
+    z-index: 2;
+}
+.cp {
+    color: #696969;
+    margin-top: 890px;
+    margin-left: 76px;
+    z-index: 2;
+    font-size: 12px;
+}
+.cpr {
+    color: #696969;
+    margin-top: 890px;
+    left: 44.5%;
+    z-index: 2;
+    font-size: 12px;
+    position: absolute;
+}
+.cprt {
+    color: #696969;
+    margin-top: 1000px;
+    left: 44.5%;
+    z-index: 2;
+    font-size: 12px;
+    position: absolute;
+}
+.mid {
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+.profile img {
+    border-radius: 50%;
+    border: 2px solid #52d6ff;
+}
+.nama {
+    margin-top: 20px;
+    color: #52d6ff;
+    text-shadow: 0 0 40px #52d6ff, 0 0 82px #52d6ff;
+    font-weight: 600;
+    font-size: 60px;
+    -webkit-text-stroke: 0.5px rgb(250, 232, 232);
+    margin-left: -51px;
+}
+.capro {
+    color: #fafafa;
+    font-size: 20px;
+    margin-left: 6px;
+    font-weight: 600;
+}
+.icon {
+    height: 140vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-box {
+    margin: 165px;
+    z-index: 2;
+}
+.icon img {
+    margin: 20px;
+    margin-left: 10px;
+}
+.icon .htm {
+    position: absolute;
+    background: #10182589;
+    width: 21%;
+    height: 220px;
+    margin-left: -100px;
+    top: 400px;
+    z-index: -1;
+    border: 2px solid #52d6ff;
+}
+.isinya {
+    color: #fafafa;
+    margin-left: 18.5px;
+    -webkit-text-stroke: 0.5px #101825;
+    font-weight: 600;
+    position: relative;
+    width: 20px;
+    top: -10px;
+}
+.isitext {
+    position: absolute;
+    color: #fafafa;
+    width: 1500px;
+    left: -90px;
+    top: 405px;
+    font-size: 11.5px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.thetext {
+    position: relative;
+    margin: 130px;
+    left: 140px;
+    z-index: 2;
+}
+.thetext1 {
+    position: relative;
+    top: 130px;
+    left: -20px;
+    z-index: 2;
+}
+.it1 .it2 .it3 .it0 {
+    position: absolute;
+    padding-left: 20px;
+}
+.next2 {
+    position: absolute;
+    left: 610px;
+    top: 655px;
+    font-size: 14.5px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+}
+.prev a {
+    color: #fafafa;
+    position: absolute;
+    left: -20px;
+}
+.prev a:hover {
+    color: #52d6ff;
+    transition: .2s;
+}
+.nxt a {
+    color: #fafafa;
+    position: absolute;
+    left: 40px;
+}
+.nxt a:hover {
+    color: #52d6ff;
+    transition: .2s;
+}
+.prestasi {
+    margin-top: 20px;
+    color: #52d6ff;
+    text-shadow: 0 0 40px #ffffff, 0 0 82px #ffffff;
+    font-weight: 600;
+    font-size: 60px;
+    -webkit-text-stroke: 0.5px rgb(250, 232, 232);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.gmbrpres {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prespict img {
+    margin: 85px;
+    margin-top: -120px;
+    border: .5px solid #52d6ff;
+}
+.wrnblkng {
+    position: absolute;
+    background: #10182589;
+    width: 19.55%;
+    height: 220px;
+    margin-left: 85px;
+    top: 446px;
+    z-index: 1;
+    border: 0.5px solid #52d6ff;
+}
+.juara {
+    position: absolute;
+    top: 480px;
+    color: #52d6ff;
+    width: 200px;
+    margin-left: 118px;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 3;
+}
+.textg1 {
+    position: absolute;
+    color: #fafafa;
+    width: 200px;
+    margin-left: 118px;
+    font-size: 13px;
+    z-index: 3;
+}
+.pdh {
+    margin-top: 20px;
+    color:#fafafa;
+    font-weight: 600;
+    font-size: 16px;
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.kak1 {
+    position: absolute;
+    top: 145%;
+    background: #101825;
+    width: 98.75%;
+    height: 250px;
+    z-index: 1;
+}
+.next3 {
+    position: absolute;
+    left: 610px;
+    top: 705px;
+    font-size: 14.5px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+}
+.pret a {
+    color: #fafafa;
+    position: absolute;
+    left: -20px;
+}
+.pret a:hover {
+    color: #52d6ff;
+    transition: .2s;
+}
+.nxtt a {
+    color: #fafafa;
+    position: absolute;
+    left: 40px;
+}
+.nxtt a:hover {
+    color: #52d6ff;
+    transition: .2s;
+}
+.conyt {
+    position: absolute;
+    left: 50%;
+    top: 890px;
+    z-index: 2;
+}
+.contt {
+    position: absolute;
+    left: 46%;
+    top: 890px;
+    z-index: 2;
+}
+.punyasaya {
+    margin-top: 20px;
+    color: #fafafa;
+    text-shadow: 0 0 40px #52d6ff, 0 0 82px #52d6ff;
+    font-weight: 600;
+    font-size: 60px;
+    -webkit-text-stroke: 1.5px #52d6ff;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.info {
+    color: #dddddd;
+    font-size: 11px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 330px;
+    text-align: center;
+}
+.gmail img {
+    position: absolute;
+    top: 80%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+}
+.gmail p {
+    color: #ffffff;
+    position: absolute;
+    top: 378px;
+    left: 58px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.whats p {
+    color: #ffffff;
+    position: absolute;
+    top: 478px;
+    left: 58px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.whats img {
+    position: absolute;
+    top: 100%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+}
